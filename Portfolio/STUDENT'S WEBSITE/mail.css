@@ -1,0 +1,88 @@
+body{
+background-image: url(https://media.istockphoto.com/id/610849650/photo/e-mail-connection-background.jpg?s=170667a&w=0&k=20&c=bbW3UhzyzcJ-6x5MOmp0axp_AkhvDbsvMa8jp0pbs5k=);
+background-repeat: no-repeat;
+background-size: cover;
+color: white;
+}
+div{
+    border:10px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 550px;
+   margin-left: 65%;
+   margin-top: -8%;
+}
+div h1{
+font-size: 54px;
+text-align: center;
+}
+
+p.para{
+    margin-top: -30px;
+text-align: center;
+font-size: 25px;
+}
+
+p.myMail{
+    margin-top:10% ;
+    text-align: center;
+border:1px solid ;
+height: 48px;
+width:450px;
+font-size:30px;
+padding: 10px;
+border-radius: 10px;
+margin-left: 7.5%;
+}
+div input{
+    text-align: center;
+    border:1px solid ;
+    margin-left: 7.5%;
+    height: 48px;
+    margin-top: -14px;
+    width:453px;
+    font-size:30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+div input:hover{
+    font-size: 37px;
+    height: 64px;
+    width: 500px;
+    background-color: rgb(101, 170, 131);
+    color: white;
+}
+
+textarea{
+    background-color: white;
+font-size: 18px;
+border-radius: 10px;
+margin-left: 7.5%;
+color: rgba(0, 0, 0, 0.897);
+margin-bottom: 2%;
+border-color: black;
+}
+
+textarea:hover{
+    font-size: 27px;
+    height:250px;
+    width: 560px;
+    background-color: rgb(101, 170, 131);
+    color: white;
+}
+
+a{
+all:unset;
+font-size: 28px;
+margin-left: 54%;
+font-weight: bold;
+margin-right: 2%;
+}
+
+button{
+all:unset;
+font-size: 28px;
+font-weight: bold;
+margin-right: 1.5%;
+}

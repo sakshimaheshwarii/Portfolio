@@ -1,0 +1,105 @@
+body{
+    background-image: url(https://img.freepik.com/free-vector/hand-painted-watercolor-abstract-background_23-2148998534.jpg?w=2000);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:black;
+}
+a{
+  all:unset;
+}
+a>img{
+  width: 40px;
+  margin-left: 10px;
+height: 50px;
+}
+@keyframes slide{
+  0%   {background-color:red; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:rgb(144, 218, 122); left:200px; top:200px;}
+  75%  {background-color:rgb(221, 159, 216); left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
+div{
+  animation-name: slide;
+  animation-duration:5s;
+    margin: 10% 30%;
+    padding: 10px;
+    margin-top: -0.54%;
+    border: 1px solid white;
+    border-radius: 10px;
+    height: 600px;
+    width: 650px;
+    background-color: white;
+}
+div h1{
+    font-size: 40px;
+    margin-left: 3%;
+   border-bottom: 5px solid linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+}
+
+div label{
+font-size: 24px;
+margin-left:3%;
+font-family:300;
+margin-top:-10%;
+}
+
+div input{
+    width: 250px;
+    height: 24px;
+    font-size: 17px;
+    border-radius:4px;
+  margin-left:3%;
+  color:lightgray;
+}
+div input:hover{
+  width:400px;
+  height: 34px;
+}
+div label.labeluser,label.labelpwd, label.labelphn{
+    margin-left: 10%;
+    margin-top: 15px;
+}
+div>input.user,input.pwd,input.phn{
+    margin-left: 48%;
+    margin-top: -70%;
+}
+div.labelGender{
+    font-size: 24px;
+}
+
+div input.male{
+    margin-top:10px;
+    margin-left:15px;
+    width:50px;
+  /*   margin-right:2.5%; */
+  }
+  div input:hover{
+    border: 6px solid lemonchiffon;
+    background-color: black;
+  }
+  div input.female{
+    margin-left:21px;
+     width:50px;
+    /* font-size:34px; */
+  /*    margin-right:1%; */
+    margin-bottom:4%;
+  
+  }
+ div input.others{
+      margin-left:21px;
+     width:50px;
+    /* font-size:40px; */
+    margin-bottom:4%;
+  }
+
+
+div a{
+    all:unset;
+    margin-left: 10px;
+    color: white;
+    border-radius: 5px;
+    font-size: 34px;
+    padding: 12px 256px;
+    background: linear-gradient(60deg, rgba(84,58,183,1) 0%, rgba(0,172,193,1) 100%);
+}

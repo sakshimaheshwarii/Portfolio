@@ -1,0 +1,171 @@
+body{
+ background: linear-gradient(90deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+;    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+img.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    margin:15px 2%;
+}
+
+p#signUp{
+    margin-top: 2%;
+    margin-left: 3%;
+    font-size: 32px;
+}
+
+div.container{
+    margin-left: 38%;
+    border: 1px solid lightgray;
+    width:500px;
+    height: 480px;
+    font-size: 24px;
+    margin-top: -4%;
+    border: 2px solid white;
+    border-radius: 20%;
+    padding: 2px 18px;
+}
+
+h1{
+    text-align: center;
+    font-size: 37px;
+}
+
+input{
+    width: 170px;
+    height:18px;
+    font-size: 17px;
+    margin-left: 10px;
+}
+input:hover{
+    background-color: darkseagreen;
+    height: 38px;
+    width:230px;
+}
+div.container a.signUp{
+    text-decoration: none;
+    color:black;
+    background-color: rgb(221, 221, 52);
+    padding: 3px;
+}
+
+a.button{
+    all:unset;
+    width: 160px;
+    height: 27px;
+    font-size: 20px;
+    margin-left: 43%;
+    color: black;
+    border:2px solid transparent;
+    background-color: white;
+}
+
+p{
+    text-align: center;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+p>a{
+    all:unset;
+}
+
+div.container hr{
+    width: 518px;
+    margin-left: -2%;
+}
+
+img.continue{
+    width:40px;
+    height:40px;
+    margin-top: -208%;
+    border-radius: 80%;
+    margin-left: 175px;
+    margin-bottom: 2%;
+}
+
+img.continue1{
+    width:40px;
+    height:40px;
+    margin-top: -30%;
+    border-radius: 80%;
+    margin-left: 4px;
+    margin-bottom: 2%;
+}
+
+img.continue2{
+    width:40px;
+    height:40px;
+    margin-top: -30%;
+    border-radius: 80%;
+    margin-left: 4px;
+    margin-bottom: 2%;
+}
+
+footer div h2{
+    text-align: center;
+}
+
+footer div.box1{
+    width: 300px;
+    height: 230px;
+    background-color:lightcoral;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    margin-left: 7%;
+}
+
+footer div.box2{
+    width: 300px;
+    height: 230px;
+    background-color:lightgreen;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    margin-left: 15px;
+}
+
+footer div.box3{
+    width: 300px;
+    height: 230px;
+    background-color: rgb(180, 131, 221);
+    border: 1px solid transparent;
+    border-radius: 5%;
+    margin-left: 15px;
+}
+
+footer div.box4{
+    width: 300px;
+    height: 230px;
+    background-color:lightgreen;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    margin-left: 15px;
+}
+
+footer div.box5{
+    width: 300px;
+    height: 230px;
+    background-color: lightcoral;
+    border: 1px solid transparent;
+    border-radius: 5%;
+    margin-top: 3.5%;
+    margin-left: 15px;
+}
+
+footer div{
+    display: inline-block;
+}
+@media screen and (max-width:80px){
+    body{
+        font-size: 28px;
+    }
+}

@@ -1,0 +1,90 @@
+body {
+  background: linear-gradient(
+    45deg,
+    rgb(108, 211, 99) 0%,
+    rgb(148, 222, 231) 100%
+  );
+}
+a{
+  all:unset;
+}
+a>img{
+  width: 40px;
+  margin-left: 6px;
+height: 40px;
+margin-top: 16px;
+}
+a {
+  text-decoration: none;
+  color: black;
+  font-size: 32px;
+  background-color: rgb(223, 223, 22);
+  border: 1px solid rgb(25, 55, 234);
+}
+a:hover {
+  background-color: rgb(192, 25, 234);
+  color: white;
+}
+table {
+  text-align: center;
+  border: 2px solid rgb(255, 0, 0);
+  padding: 3px 10px;
+  margin-left: 30%;
+  width: 800px;
+  border-collapse: collapse;
+  height: 800px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow:0 0 20px rgba(0, 0, 0, 15) ;
+  /* column-count: auto;
+  column-gap: 10px;
+  column-rule-color: #8f4040; */
+}
+
+table td {
+  font-size: 32px;
+  margin-left: 10%;
+  padding: 12px 15px;
+}
+table tr {
+  border-bottom: 1px solid #8f4040;
+}
+table tr:visited{
+    color: green;
+}
+table tr:nth-of-type(3) {
+    background-color: rgb(214, 214, 189);
+}
+table tr:nth-of-type(5) {
+  background-color: rgb(214, 214, 189);
+}
+table tr:nth-of-type(7) {
+  background-color: rgb(214, 214, 189);
+}
+table tr:nth-of-type(9) {
+  background-color: rgb(214, 214, 189);
+}
+table tr:nth-of-type(11) {
+  background-color: rgb(214, 214, 189);
+}
+table tr:nth-of-type(13) {
+  background-color: rgb(214, 214, 189);
+}
+table tr:last-of-type() {
+    border-bottom: 2px solid green;
+}
+
+table th {
+  font-size: 36px;
+  width: 200px;
+  margin-left: 10%;
+  background-color: green;
+  color: #fff;
+}
+h1 {
+  font-size: 36px;
+  margin-left: 43%;
+  background-color: pink;
+  width: 270px;
+  padding: 4px;
+}

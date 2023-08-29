@@ -1,0 +1,52 @@
+body{
+    padding:1%;
+    border: 15px solid teal;
+}
+
+h1{
+    font-size: 40px;
+    background-color: skyblue;
+    text-align: center;
+    margin-top: -2.7%;
+    width:1800px;
+}
+a{
+    all:unset;
+}
+a>img{
+    width: 40px;
+    margin-left: 10px;
+height: 50px;
+}
+div.video1{
+    width: 500px;
+    height: 500px;
+    display: inline;
+    border: 7px solid red;
+    margin-left: 7%;
+    margin-top: 8%;
+}
+div.video2{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    border: 7px solid rgb(255, 208, 0);
+    margin-left: 7%;
+    margin-top: 8%;
+}
+div.video3{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    border: 7px solid rgb(195, 0, 255);
+    margin-left: 7%;
+    margin-top: 8%;
+}
+div.video4{
+    width: 200px;
+    height: 200px;
+    display: inline;
+    border: 7px solid rgb(0, 255, 191);
+    margin-left: 7%;
+    margin-top: 8%;
+}

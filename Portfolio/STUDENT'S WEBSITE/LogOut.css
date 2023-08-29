@@ -1,0 +1,21 @@
+body{
+    background-image: url(https://coolbackgrounds.io/images/backgrounds/index/ranger-4df6c1b6.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    margin-top: 14%;
+font-size: 95px;
+color:white;
+font-weight: bold;
+text-align: center;
+}
+
+p a{
+    all:unset;
+    margin-top: -50%;
+    font-weight: bold;
+    font-size: 95px;
+    color: rgb(17, 20, 189);
+}

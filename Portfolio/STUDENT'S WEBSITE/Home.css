@@ -1,0 +1,183 @@
+body{
+    background-image:url(https://storage.pixteller.com/designs/designs-images/2019-03-27/05/thumbs/simple-background-backgrounds-passion-simple-1-5c9b95c3a34f9.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+img.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 40%;
+    margin:15px 2%;
+
+}
+header ul{
+    align-items: center;
+    display: flex;
+    margin-right: 5%;
+}
+
+header ul li{
+    font-size: 30px;
+    list-style-type:none;
+    padding: 10px;
+    margin: 3px;
+}
+
+header ul li:hover{
+    background-color: rgb(201, 197, 197);
+}
+
+header ul li a {
+    text-decoration: none;
+    color: black;
+    /* float: right; */
+    margin-right: 5%;
+    margin-top: -6%;
+    /* font-size: 20px; */
+    all:unset;
+}
+
+header ul li a img{
+    /* all:unset; */
+    width: 30px;
+    height: 30px;
+    border-radius: 40%;
+}
+
+hr.header{
+    width: 1910px;
+    margin-top: -0.5%;
+}
+/* ---------------- */
+h1{
+    font-size: 60px;
+    margin-left: 2.5%;
+}
+p.des{
+    font-size: 27.4px;
+    width:1000px;
+    padding: 20px;
+    height: 180px;
+    margin-top:1.5% ;
+    border:1px solid green;
+    background-color: lightgreen;
+    margin-left: 26%;
+    border-radius: 30%;
+}
+p.python{
+    font-size: 27.4px;
+    width:500px;
+    padding: 20px;
+    height: 80px;
+    margin-top:2.5% ;
+    border:1px solid rgb(63, 127, 187);
+    background-color: rgb(63, 127, 187);
+    color:white;
+    margin-left: 35%;
+    border-radius: 2%;
+}
+p.java{
+    font-size: 27.4px;
+    width:500px;
+    padding: 20px;
+    height: 110px;
+    margin-top:2.5% ;
+    border:1px solid rgb(63, 127, 187);
+    background-color: rgb(63, 127, 187);
+    color:white;
+    margin-left: 45%;
+    border-radius: 2%;
+}
+p.c{
+    font-size: 27.4px;
+    width:500px;
+    padding: 20px;
+    height: 47px;
+    margin-top:2.5% ;
+    border:1px solid rgb(63, 127, 187);
+    background-color: rgb(63, 127, 187);
+    color:white;
+    margin-left: 35%;
+    border-radius: 2%;
+}
+p.assembly{
+    font-size: 27.4px;
+    width:500px;
+    padding: 20px;
+    height: 47px;
+    margin-top:2.5% ;
+    border:1px solid rgb(63, 127, 187);
+    background-color: rgb(63, 127, 187);
+    color:white;
+    margin-left: 45%;
+    border-radius: 2%;
+}
+p.cpp{
+    font-size: 27.4px;
+    width:500px;
+    padding: 20px;
+    height: 47px;
+    margin-top:2.5% ;
+    border:1px solid rgb(63, 127, 187);
+    background-color: rgb(63, 127, 187);
+    color:white;
+    margin-left: 35%;
+    border-radius: 2%;
+}
+p.js{
+    font-size: 27.4px;
+    width:500px;
+    padding: 25px;
+    height: 37px;
+    /* margin-top:%; */
+    border:1px solid rgb(63, 127, 187);
+    background-color: rgb(63, 127, 187);
+    color:white;
+    margin-left: 45%;
+    border-radius: 1%;
+    /* text-align: center; */
+}
+p.ruby{
+    font-size: 27.4px;
+    width:500px;
+    padding: 25px;
+    height: 13px;
+    margin-top:2%;
+    border:1px solid rgb(63, 127, 187);
+    background-color: rgb(63, 127, 187);
+    color:white;
+    margin-left: 35%;
+    border-radius: 1%;
+    /* text-align: center; */
+}
+p.swift{
+    font-size: 27.4px;
+    width:500px;
+    padding: 20px;
+    height: 80px;
+    margin-top:2.5% ;
+    border:1px solid rgb(63, 127, 187);
+    background-color: rgb(63, 127, 187);
+    color:white;
+    margin-left: 45%;
+    border-radius: 2%;
+}
+p.php{
+    font-size: 27.4px;
+    width:500px;
+    padding: 25px;
+    height: 13px;
+    margin-top:2%;
+    border:1px solid rgb(63, 127, 187);
+    background-color: rgb(63, 127, 187);
+    color:white;
+    margin-left: 35%;
+    border-radius: 1%;
+    /* text-align: center; */
+}
